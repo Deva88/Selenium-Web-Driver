@@ -24,6 +24,7 @@ public class BasicProgram  {
 		//System.out.println(driver.getPageSource()); //prtin the page source code
 		driver.close(); //close current page
 		driver.quit(); // close all page
+
 		/*
 		 * For InternetExplorerDriver 
 		 */
@@ -38,7 +39,6 @@ public class BasicProgram  {
 		//System.out.println(driver.getPageSource()); 
 		driver2.close(); 
 		driver2.quit(); 
-
 
 		/*
 		 * For FireFox Driver Using Automation	   
